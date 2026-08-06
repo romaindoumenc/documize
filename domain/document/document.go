@@ -12,13 +12,13 @@
 package document
 
 import (
-	"github.com/documize/community/core/uniqueid"
-	"github.com/documize/community/domain"
-	"github.com/documize/community/domain/store"
-	"github.com/documize/community/model/category"
-	"github.com/documize/community/model/doc"
-	"github.com/documize/community/model/page"
-	"github.com/documize/community/model/workflow"
+	"github.com/romaindoumenc/documize/core/uniqueid"
+	"github.com/romaindoumenc/documize/domain"
+	"github.com/romaindoumenc/documize/domain/store"
+	"github.com/romaindoumenc/documize/model/category"
+	"github.com/romaindoumenc/documize/model/doc"
+	"github.com/romaindoumenc/documize/model/page"
+	"github.com/romaindoumenc/documize/model/workflow"
 	"github.com/pkg/errors"
 )
 

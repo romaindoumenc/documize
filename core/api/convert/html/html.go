@@ -17,8 +17,8 @@ import (
 	"strings"
 
 	"context"
-	api "github.com/documize/community/core/convapi"
-	"github.com/documize/community/core/stringutil"
+	api "github.com/romaindoumenc/documize/core/convapi"
+	"github.com/romaindoumenc/documize/core/stringutil"
 	"golang.org/x/net/html"
 	"golang.org/x/net/html/atom"
 )

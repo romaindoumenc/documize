@@ -16,9 +16,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/documize/community/domain"
-	"github.com/documize/community/domain/store"
-	"github.com/documize/community/model/attachment"
+	"github.com/romaindoumenc/documize/domain"
+	"github.com/romaindoumenc/documize/domain/store"
+	"github.com/romaindoumenc/documize/model/attachment"
 	"github.com/pkg/errors"
 )
 

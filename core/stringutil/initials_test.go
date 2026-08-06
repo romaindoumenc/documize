@@ -13,7 +13,7 @@ package stringutil
 
 import "testing"
 
-// go test github.com/documize/community/core/stringutil -run TestInitials
+// go test github.com/romaindoumenc/documize/core/stringutil -run TestInitials
 func TestInitials(t *testing.T) {
 	in(t, "Harvey", "Kandola", "HK")
 	in(t, "Harvey", "", "H")

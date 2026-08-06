@@ -18,14 +18,14 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/documize/community/core/api/plugins"
-	"github.com/documize/community/core/env"
-	"github.com/documize/community/core/secrets"
-	"github.com/documize/community/core/stringutil"
-	"github.com/documize/community/core/uniqueid"
-	"github.com/documize/community/domain"
-	"github.com/documize/community/domain/store"
-	"github.com/documize/community/server/web"
+	"github.com/romaindoumenc/documize/core/api/plugins"
+	"github.com/romaindoumenc/documize/core/env"
+	"github.com/romaindoumenc/documize/core/secrets"
+	"github.com/romaindoumenc/documize/core/stringutil"
+	"github.com/romaindoumenc/documize/core/uniqueid"
+	"github.com/romaindoumenc/documize/domain"
+	"github.com/romaindoumenc/documize/domain/store"
+	"github.com/romaindoumenc/documize/server/web"
 )
 
 // Handler contains the runtime information such as logging and database.

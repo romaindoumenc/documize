@@ -15,13 +15,13 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/documize/community/domain"
-	"github.com/documize/community/model/attachment"
-	"github.com/documize/community/model/category"
-	"github.com/documize/community/model/doc"
-	"github.com/documize/community/model/page"
-	sm "github.com/documize/community/model/search"
-	"github.com/documize/community/model/workflow"
+	"github.com/romaindoumenc/documize/domain"
+	"github.com/romaindoumenc/documize/model/attachment"
+	"github.com/romaindoumenc/documize/model/category"
+	"github.com/romaindoumenc/documize/model/doc"
+	"github.com/romaindoumenc/documize/model/page"
+	sm "github.com/romaindoumenc/documize/model/search"
+	"github.com/romaindoumenc/documize/model/workflow"
 )
 
 // IndexDocument adds search indesd entries for document inserting title, tags and attachments as

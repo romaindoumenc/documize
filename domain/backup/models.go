@@ -20,7 +20,7 @@ package backup
 import (
 	"time"
 
-	"github.com/documize/community/model/org"
+	"github.com/romaindoumenc/documize/model/org"
 )
 
 type orgExtended struct {

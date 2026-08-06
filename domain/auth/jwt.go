@@ -18,8 +18,8 @@ import (
 	"time"
 
 	jwt "github.com/dgrijalva/jwt-go"
-	"github.com/documize/community/core/env"
-	"github.com/documize/community/domain"
+	"github.com/romaindoumenc/documize/core/env"
+	"github.com/romaindoumenc/documize/domain"
 )
 
 // GenerateJWT generates JSON Web Token (http://jwt.io)

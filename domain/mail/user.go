@@ -14,8 +14,8 @@ package mail
 import (
 	"fmt"
 
-	"github.com/documize/community/core/i18n"
-	"github.com/documize/community/domain/smtp"
+	"github.com/romaindoumenc/documize/core/i18n"
+	"github.com/romaindoumenc/documize/domain/smtp"
 )
 
 // InviteNewUser invites someone new providing credentials, explaining the product and stating who is inviting them.

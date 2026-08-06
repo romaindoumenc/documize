@@ -14,9 +14,9 @@ package user
 import (
 	"fmt"
 
-	"github.com/documize/community/model"
-	"github.com/documize/community/model/account"
-	"github.com/documize/community/model/group"
+	"github.com/romaindoumenc/documize/model"
+	"github.com/romaindoumenc/documize/model/account"
+	"github.com/romaindoumenc/documize/model/group"
 )
 
 // User defines a login.

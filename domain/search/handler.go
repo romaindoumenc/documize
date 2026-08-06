@@ -12,8 +12,8 @@
 package search
 
 import (
-	"github.com/documize/community/core/env"
-	"github.com/documize/community/domain/store"
+	"github.com/romaindoumenc/documize/core/env"
+	"github.com/romaindoumenc/documize/domain/store"
 )
 
 // Indexer documents!

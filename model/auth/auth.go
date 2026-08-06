@@ -11,7 +11,7 @@
 
 package auth
 
-import "github.com/documize/community/model/user"
+import "github.com/romaindoumenc/documize/model/user"
 
 // AuthenticationModel details authentication token and user details.
 type AuthenticationModel struct {

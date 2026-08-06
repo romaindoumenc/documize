@@ -12,7 +12,7 @@
 package md
 
 import (
-	api "github.com/documize/community/core/convapi"
+	api "github.com/romaindoumenc/documize/core/convapi"
 
 	"github.com/documize/blackfriday"
 

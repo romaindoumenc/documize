@@ -16,13 +16,13 @@ import (
 	"fmt"
 	"html/template"
 
-	"github.com/documize/community/core/asset"
-	"github.com/documize/community/core/env"
-	"github.com/documize/community/core/mail"
-	"github.com/documize/community/domain"
-	"github.com/documize/community/domain/setting"
-	ds "github.com/documize/community/domain/smtp"
-	"github.com/documize/community/domain/store"
+	"github.com/romaindoumenc/documize/core/asset"
+	"github.com/romaindoumenc/documize/core/env"
+	"github.com/romaindoumenc/documize/core/mail"
+	"github.com/romaindoumenc/documize/domain"
+	"github.com/romaindoumenc/documize/domain/setting"
+	ds "github.com/romaindoumenc/documize/domain/smtp"
+	"github.com/romaindoumenc/documize/domain/store"
 	"github.com/pkg/errors"
 )
 

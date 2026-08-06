@@ -11,7 +11,7 @@
 
 package group
 
-import "github.com/documize/community/model"
+import "github.com/romaindoumenc/documize/model"
 
 // Group defines a user group.
 type Group struct {

@@ -16,10 +16,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/documize/community/domain"
-	"github.com/documize/community/domain/store"
-	"github.com/documize/community/model/permission"
-	"github.com/documize/community/model/user"
+	"github.com/romaindoumenc/documize/domain"
+	"github.com/romaindoumenc/documize/domain/store"
+	"github.com/romaindoumenc/documize/model/permission"
+	"github.com/romaindoumenc/documize/model/user"
 	"github.com/pkg/errors"
 )
 

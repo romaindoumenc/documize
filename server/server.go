@@ -18,12 +18,12 @@ import (
 	"strings"
 
 	"github.com/codegangsta/negroni"
-	"github.com/documize/community/core/api/plugins"
-	"github.com/documize/community/core/asset"
-	"github.com/documize/community/core/database"
-	"github.com/documize/community/core/env"
-	"github.com/documize/community/domain/store"
-	"github.com/documize/community/server/routing"
+	"github.com/romaindoumenc/documize/core/api/plugins"
+	"github.com/romaindoumenc/documize/core/asset"
+	"github.com/romaindoumenc/documize/core/database"
+	"github.com/romaindoumenc/documize/core/env"
+	"github.com/romaindoumenc/documize/domain/store"
+	"github.com/romaindoumenc/documize/server/routing"
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
 )

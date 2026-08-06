@@ -12,8 +12,8 @@
 package page
 
 import (
-	"github.com/documize/community/domain"
-	"github.com/documize/community/model/page"
+	"github.com/romaindoumenc/documize/domain"
+	"github.com/romaindoumenc/documize/model/page"
 )
 
 // LevelizeDocument generates level and sequence numbers for all document sections

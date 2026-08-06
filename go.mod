@@ -1,4 +1,4 @@
-module github.com/documize/community
+module github.com/romaindoumenc/documize
 
 go 1.25
 

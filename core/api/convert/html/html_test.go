@@ -15,8 +15,8 @@ import (
 	"strings"
 	"testing"
 )
-import api "github.com/documize/community/core/convapi"
-import "github.com/documize/community/core/api/convert/html"
+import api "github.com/romaindoumenc/documize/core/convapi"
+import "github.com/romaindoumenc/documize/core/api/convert/html"
 
 const b string = `
 <h1>Markdown: Basics</h1>

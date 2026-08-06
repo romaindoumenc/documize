@@ -17,7 +17,7 @@ import (
 	"encoding/base64"
 	"strings"
 
-	"github.com/documize/community/core/mail"
+	"github.com/romaindoumenc/documize/core/mail"
 )
 
 // Config is used to create SMTP server connection

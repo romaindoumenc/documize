@@ -1,0 +1,58 @@
+name: Test Suite
+
+on:
+  push:
+    branches: [ master, main ]
+  pull_request:
+    branches: [ master, main ]
+
+jobs:
+  go-test:
+    name: Go Tests
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.25'
+          cache: true
+          cache-dependency-path: go.sum
+
+      - name: Install Go dependencies
+        run: go mod download
+
+      - name: Verify Go module
+        run: go mod verify
+
+      - name: Run Go tests
+        run: go test -timeout 60s ./...
+
+  ember-test:
+    name: Ember Tests
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+          cache-dependency-path: gui/package-lock.json
+
+      - name: Install npm dependencies
+        working-directory: gui
+        run: npm ci
+
+      - name: Run Ember tests
+        working-directory: gui
+        run: npx ember test --test-port=0
+        env:
+          CI: true
+          NODE_OPTIONS: --max_old_space_size=4096

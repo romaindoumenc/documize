@@ -17,7 +17,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/documize/community/core/request"
+	"github.com/romaindoumenc/documize/core/request"
 
 	"github.com/jmoiron/sqlx"
 )

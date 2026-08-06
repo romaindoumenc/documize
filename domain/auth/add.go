@@ -14,13 +14,13 @@ package auth
 import (
 	"database/sql"
 
-	"github.com/documize/community/core/env"
-	"github.com/documize/community/core/uniqueid"
-	"github.com/documize/community/domain"
-	"github.com/documize/community/domain/store"
-	usr "github.com/documize/community/domain/user"
-	"github.com/documize/community/model/account"
-	"github.com/documize/community/model/user"
+	"github.com/romaindoumenc/documize/core/env"
+	"github.com/romaindoumenc/documize/core/uniqueid"
+	"github.com/romaindoumenc/documize/domain"
+	"github.com/romaindoumenc/documize/domain/store"
+	usr "github.com/romaindoumenc/documize/domain/user"
+	"github.com/romaindoumenc/documize/model/account"
+	"github.com/romaindoumenc/documize/model/user"
 )
 
 // AddExternalUser method to setup user account in Documize using Keycloak/LDAP provided user data.

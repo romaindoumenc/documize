@@ -20,7 +20,7 @@ import (
 	"path/filepath"
 
 	"context"
-	api "github.com/documize/community/core/convapi"
+	api "github.com/romaindoumenc/documize/core/convapi"
 )
 
 // Msword type provides a peg to hang the Convert method on.

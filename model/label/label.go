@@ -11,7 +11,7 @@
 
 package label
 
-import "github.com/documize/community/model"
+import "github.com/romaindoumenc/documize/model"
 
 // Label represents a name and color combination that
 // can be assigned to spaces.

@@ -17,7 +17,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/documize/community/core/env"
+	"github.com/romaindoumenc/documize/core/env"
 	"github.com/gorilla/mux"
 )
 

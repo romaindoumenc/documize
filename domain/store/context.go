@@ -15,7 +15,7 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/documize/community/core/env"
+	"github.com/romaindoumenc/documize/core/env"
 	"github.com/jmoiron/sqlx"
 	"github.com/pkg/errors"
 )

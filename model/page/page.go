@@ -15,8 +15,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/documize/community/model"
-	"github.com/documize/community/model/workflow"
+	"github.com/romaindoumenc/documize/model"
+	"github.com/romaindoumenc/documize/model/workflow"
 )
 
 // Page represents a section within a document.
