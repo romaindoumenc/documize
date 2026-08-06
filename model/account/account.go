@@ -11,7 +11,7 @@
 
 package account
 
-import "github.com/documize/community/model"
+import "github.com/romaindoumenc/documize/model"
 
 // Account links a User to an Organization.
 type Account struct {

@@ -25,12 +25,11 @@ jobs:
       - name: Install Go dependencies
         run: go mod download
 
-      - name: Run Go tests
-        run: go test -timeout 30s -v ./...
-        continue-on-error: true
+      - name: Verify Go module
+        run: go mod verify
 
-      - name: Verify Go build
-        run: go build -v ./edition/community.go
+      - name: Run Go tests
+        run: go test -timeout 60s ./...
 
   ember-test:
     name: Ember Tests
@@ -57,4 +56,3 @@ jobs:
         env:
           CI: true
           NODE_OPTIONS: --max_old_space_size=4096
-        continue-on-error: true

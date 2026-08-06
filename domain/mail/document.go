@@ -16,8 +16,8 @@ package mail
 import (
 	"fmt"
 
-	"github.com/documize/community/core/i18n"
-	"github.com/documize/community/domain/smtp"
+	"github.com/romaindoumenc/documize/core/i18n"
+	"github.com/romaindoumenc/documize/domain/smtp"
 )
 
 // DocumentApprover notifies user who has just been granted document approval rights.

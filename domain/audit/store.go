@@ -16,9 +16,9 @@ import (
 	"time"
 	"database/sql"
 
-	"github.com/documize/community/domain"
-	"github.com/documize/community/domain/store"
-	"github.com/documize/community/model/audit"
+	"github.com/romaindoumenc/documize/domain"
+	"github.com/romaindoumenc/documize/domain/store"
+	"github.com/romaindoumenc/documize/model/audit"
 )
 
 // Store provides data access to audit log information.

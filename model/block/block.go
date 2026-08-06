@@ -11,7 +11,7 @@
 
 package block
 
-import "github.com/documize/community/model"
+import "github.com/romaindoumenc/documize/model"
 
 // Block represents a section that has been published as a reusable content block.
 type Block struct {

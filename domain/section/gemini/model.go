@@ -14,8 +14,8 @@ package gemini
 import (
 	"strings"
 
-	"github.com/documize/community/domain/section/provider"
-	"github.com/documize/community/domain/store"
+	"github.com/romaindoumenc/documize/domain/section/provider"
+	"github.com/romaindoumenc/documize/domain/store"
 )
 
 // the HTML that is rendered by this section.

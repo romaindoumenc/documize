@@ -13,7 +13,7 @@
 package uniqueid
 
 import (
-	"github.com/documize/community/core/uniqueid/xid"
+	"github.com/romaindoumenc/documize/core/uniqueid/xid"
 )
 
 // Generate creates a randomly generated string suitable for use as part of an URI.

@@ -15,9 +15,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/documize/community/domain"
-	"github.com/documize/community/domain/store"
-	"github.com/documize/community/model/pin"
+	"github.com/romaindoumenc/documize/domain"
+	"github.com/romaindoumenc/documize/domain/store"
+	"github.com/romaindoumenc/documize/model/pin"
 	"github.com/pkg/errors"
 )
 

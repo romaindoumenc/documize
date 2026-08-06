@@ -41,16 +41,16 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/documize/community/core/request"
-	"github.com/documize/community/model/audit"
+	"github.com/romaindoumenc/documize/core/request"
+	"github.com/romaindoumenc/documize/model/audit"
 
-	"github.com/documize/community/core/env"
-	"github.com/documize/community/core/response"
-	"github.com/documize/community/core/streamutil"
-	"github.com/documize/community/domain"
-	indexer "github.com/documize/community/domain/search"
-	"github.com/documize/community/domain/store"
-	m "github.com/documize/community/model/backup"
+	"github.com/romaindoumenc/documize/core/env"
+	"github.com/romaindoumenc/documize/core/response"
+	"github.com/romaindoumenc/documize/core/streamutil"
+	"github.com/romaindoumenc/documize/domain"
+	indexer "github.com/romaindoumenc/documize/domain/search"
+	"github.com/romaindoumenc/documize/domain/store"
+	m "github.com/romaindoumenc/documize/model/backup"
 )
 
 // Handler contains the runtime information such as logging and database.

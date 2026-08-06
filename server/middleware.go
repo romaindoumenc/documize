@@ -21,16 +21,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/documize/community/core/env"
-	"github.com/documize/community/core/i18n"
-	"github.com/documize/community/core/request"
-	"github.com/documize/community/core/response"
-	"github.com/documize/community/domain"
-	"github.com/documize/community/domain/auth"
-	"github.com/documize/community/domain/organization"
-	"github.com/documize/community/domain/store"
-	"github.com/documize/community/domain/user"
-	"github.com/documize/community/model/org"
+	"github.com/romaindoumenc/documize/core/env"
+	"github.com/romaindoumenc/documize/core/i18n"
+	"github.com/romaindoumenc/documize/core/request"
+	"github.com/romaindoumenc/documize/core/response"
+	"github.com/romaindoumenc/documize/domain"
+	"github.com/romaindoumenc/documize/domain/auth"
+	"github.com/romaindoumenc/documize/domain/organization"
+	"github.com/romaindoumenc/documize/domain/store"
+	"github.com/romaindoumenc/documize/domain/user"
+	"github.com/romaindoumenc/documize/model/org"
 )
 
 type middleware struct {

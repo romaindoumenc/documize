@@ -15,7 +15,7 @@ import (
 	"testing"
 )
 
-// go test github.com/documize/community/domain/backup -run TestRemapORg
+// go test github.com/romaindoumenc/documize/domain/backup -run TestRemapORg
 func TestRemapOrg(t *testing.T) {
 	r := restoreHandler{MapOrgID: make(map[string]string)}
 	r.MapOrgID["abc"] = "def"

@@ -19,8 +19,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/documize/community/core/api/convert"
-	api "github.com/documize/community/core/convapi"
+	"github.com/romaindoumenc/documize/core/api/convert"
+	api "github.com/romaindoumenc/documize/core/convapi"
 )
 
 var folderPath string

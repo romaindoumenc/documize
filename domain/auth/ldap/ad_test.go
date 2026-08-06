@@ -14,7 +14,7 @@ package ldap
 import (
 	"testing"
 
-	lm "github.com/documize/community/model/auth"
+	lm "github.com/romaindoumenc/documize/model/auth"
 )
 
 // Works against AD server in Azure configured using:

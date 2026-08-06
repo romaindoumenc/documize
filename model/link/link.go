@@ -11,7 +11,7 @@
 
 package link
 
-import "github.com/documize/community/model"
+import "github.com/romaindoumenc/documize/model"
 
 // Link defines a reference between a section and another document/section/attachment.
 type Link struct {

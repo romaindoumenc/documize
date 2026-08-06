@@ -14,9 +14,9 @@ package airtable
 import (
 	"net/http"
 
-	"github.com/documize/community/core/env"
-	"github.com/documize/community/domain/section/provider"
-	"github.com/documize/community/domain/store"
+	"github.com/romaindoumenc/documize/core/env"
+	"github.com/romaindoumenc/documize/domain/section/provider"
+	"github.com/romaindoumenc/documize/domain/store"
 )
 
 // Provider represents Airtable

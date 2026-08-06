@@ -21,9 +21,9 @@ import (
 	"net/http"
 
 	jira "github.com/andygrunwald/go-jira"
-	"github.com/documize/community/core/env"
-	"github.com/documize/community/domain/section/provider"
-	"github.com/documize/community/domain/store"
+	"github.com/romaindoumenc/documize/core/env"
+	"github.com/romaindoumenc/documize/domain/section/provider"
+	"github.com/romaindoumenc/documize/domain/store"
 )
 
 //

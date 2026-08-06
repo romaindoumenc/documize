@@ -11,7 +11,7 @@
 
 package category
 
-import "github.com/documize/community/model"
+import "github.com/romaindoumenc/documize/model"
 
 // Category represents a category within a space that is persisted to the database.
 type Category struct {

@@ -15,15 +15,15 @@ import (
 	"database/sql"
 	"net/http"
 
-	"github.com/documize/community/core/env"
-	"github.com/documize/community/core/request"
-	"github.com/documize/community/core/response"
-	"github.com/documize/community/core/uniqueid"
-	"github.com/documize/community/domain"
-	"github.com/documize/community/domain/permission"
-	"github.com/documize/community/domain/section/provider"
-	"github.com/documize/community/domain/store"
-	"github.com/documize/community/model/page"
+	"github.com/romaindoumenc/documize/core/env"
+	"github.com/romaindoumenc/documize/core/request"
+	"github.com/romaindoumenc/documize/core/response"
+	"github.com/romaindoumenc/documize/core/uniqueid"
+	"github.com/romaindoumenc/documize/domain"
+	"github.com/romaindoumenc/documize/domain/permission"
+	"github.com/romaindoumenc/documize/domain/section/provider"
+	"github.com/romaindoumenc/documize/domain/store"
+	"github.com/romaindoumenc/documize/model/page"
 )
 
 // Handler contains the runtime information such as logging and database.

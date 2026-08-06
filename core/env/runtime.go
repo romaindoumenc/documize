@@ -17,7 +17,7 @@ import (
 	"database/sql"
 	"embed"
 
-	"github.com/documize/community/domain"
+	"github.com/romaindoumenc/documize/domain"
 	"github.com/jmoiron/sqlx"
 )
 

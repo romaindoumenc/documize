@@ -19,9 +19,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/documize/community/core/env"
-	"github.com/documize/community/domain"
-	"github.com/documize/community/domain/store"
+	"github.com/romaindoumenc/documize/core/env"
+	"github.com/romaindoumenc/documize/domain"
+	"github.com/romaindoumenc/documize/domain/store"
 )
 
 // SecretReplacement is a constant used to replace secrets in data-structures when required.

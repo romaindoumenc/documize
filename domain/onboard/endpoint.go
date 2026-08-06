@@ -20,15 +20,15 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/documize/community/core/asset"
-	"github.com/documize/community/core/env"
-	"github.com/documize/community/core/response"
-	"github.com/documize/community/core/uniqueid"
-	"github.com/documize/community/domain"
-	indexer "github.com/documize/community/domain/search"
-	"github.com/documize/community/domain/store"
-	om "github.com/documize/community/model/onboard"
-	"github.com/documize/community/model/permission"
+	"github.com/romaindoumenc/documize/core/asset"
+	"github.com/romaindoumenc/documize/core/env"
+	"github.com/romaindoumenc/documize/core/response"
+	"github.com/romaindoumenc/documize/core/uniqueid"
+	"github.com/romaindoumenc/documize/domain"
+	indexer "github.com/romaindoumenc/documize/domain/search"
+	"github.com/romaindoumenc/documize/domain/store"
+	om "github.com/romaindoumenc/documize/model/onboard"
+	"github.com/romaindoumenc/documize/model/permission"
 )
 
 // Handler contains the runtime information such as logging and database.

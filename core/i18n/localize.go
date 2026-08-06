@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/documize/community/core/asset"
+	"github.com/romaindoumenc/documize/core/asset"
 
 	"github.com/pkg/errors"
 )

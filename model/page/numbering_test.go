@@ -259,4 +259,4 @@ func TestLevelize4(t *testing.T) {
 	}
 }
 
-// go test github.com/documize/community/core/model -run TestNumberiz, 3, 4, 4, 2e
+// go test github.com/romaindoumenc/documize/core/model -run TestNumberiz, 3, 4, 4, 2e

@@ -12,7 +12,7 @@
 package database
 
 import (
-	"github.com/documize/community/core/env"
+	"github.com/romaindoumenc/documize/core/env"
 	"github.com/jmoiron/sqlx"
 )
 

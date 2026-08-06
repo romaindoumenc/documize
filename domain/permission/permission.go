@@ -14,11 +14,11 @@ package permission
 import (
 	"database/sql"
 
-	"github.com/documize/community/domain"
-	"github.com/documize/community/domain/store"
-	group "github.com/documize/community/model/group"
-	pm "github.com/documize/community/model/permission"
-	u "github.com/documize/community/model/user"
+	"github.com/romaindoumenc/documize/domain"
+	"github.com/romaindoumenc/documize/domain/store"
+	group "github.com/romaindoumenc/documize/model/group"
+	pm "github.com/romaindoumenc/documize/model/permission"
+	u "github.com/romaindoumenc/documize/model/user"
 )
 
 // CanViewSpaceDocument returns if the user has permission to view a document within the specified folder.

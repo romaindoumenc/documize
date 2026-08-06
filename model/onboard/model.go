@@ -13,14 +13,14 @@
 package onboard
 
 import (
-	"github.com/documize/community/domain"
-	"github.com/documize/community/model/attachment"
-	"github.com/documize/community/model/category"
-	"github.com/documize/community/model/doc"
-	"github.com/documize/community/model/label"
-	"github.com/documize/community/model/link"
-	"github.com/documize/community/model/page"
-	"github.com/documize/community/model/space"
+	"github.com/romaindoumenc/documize/domain"
+	"github.com/romaindoumenc/documize/model/attachment"
+	"github.com/romaindoumenc/documize/model/category"
+	"github.com/romaindoumenc/documize/model/doc"
+	"github.com/romaindoumenc/documize/model/label"
+	"github.com/romaindoumenc/documize/model/link"
+	"github.com/romaindoumenc/documize/model/page"
+	"github.com/romaindoumenc/documize/model/space"
 )
 
 // SampleData holds initial welcome data used during installation process.
