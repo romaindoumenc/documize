@@ -2,8 +2,7 @@
 
 # Test script for Documize
 # Runs both Go and Ember tests
-
-set -e
+# Each stage runs independently and reports its status
 
 echo "=========================================="
 echo "Running Documize Test Suite"
@@ -15,16 +14,19 @@ OVERALL_STATUS=0
 # Function to run a test stage and track status
 run_stage() {
     local stage_name="$1"
+    local command="$2"
+    
     echo ""
     echo "----------------------------------------"
     echo "Running: $stage_name"
     echo "----------------------------------------"
     
-    if "$2"; then
-        echo "✅ $stage_name passed"
+    if eval "$command"; then
+        echo "[PASS] $stage_name passed"
         return 0
     else
-        echo "❌ $stage_name failed"
+        local exit_code=$?
+        echo "[FAIL] $stage_name failed (exit code: $exit_code)"
         OVERALL_STATUS=1
         return 1
     fi
@@ -38,7 +40,7 @@ run_stage "Go unit tests" "go test ./..."
 # Stage 2: Go build verification
 echo ""
 echo "Verifying Go build..."
-run_stage "Go build check" "go build -v ./edition/community.go 2>&1 | head -20"
+run_stage "Go build check" "go build -o /tmp/documize-test ./edition/community.go"
 
 # Stage 3: Ember tests (if Node.js is available)
 if command -v npm &> /dev/null; then
@@ -50,7 +52,12 @@ if command -v npm &> /dev/null; then
     # Install dependencies if needed
     if [ ! -d "node_modules" ]; then
         echo "Installing npm dependencies..."
-        npm install
+        npm install || {
+            echo "[WARN] npm install failed, trying to continue with existing node_modules"
+            cd ..
+            run_stage "Ember tests" "cd gui && npm test"
+            return
+        }
     fi
     
     # Run Ember tests
@@ -59,19 +66,19 @@ if command -v npm &> /dev/null; then
     cd ..
 else
     echo ""
-    echo "⚠️  Node.js not found, skipping Ember tests"
-    echo "   Ember tests require Node.js and npm"
+    echo "[SKIP] Node.js not found, skipping Ember tests"
+    echo "      Ember tests require Node.js and npm"
 fi
 
 # Final summary
 echo ""
 echo "=========================================="
 if [ $OVERALL_STATUS -eq 0 ]; then
-    echo "✅ All tests passed!"
+    echo "[SUCCESS] All tests passed!"
     echo "=========================================="
     exit 0
 else
-    echo "❌ Some tests failed"
+    echo "[FAILURE] Some tests failed"
     echo "=========================================="
     exit 1
 fi
